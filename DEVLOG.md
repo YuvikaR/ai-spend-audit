@@ -1,4 +1,4 @@
-## Day 1 — 2026-05-07
+## Day 1 :  7 May 2026
 **Hours worked:** 6
 
 **What I did:**  
