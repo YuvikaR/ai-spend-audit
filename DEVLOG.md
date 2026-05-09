@@ -179,3 +179,49 @@ I plan to improve:
 Today was mainly about turning the project from a designed interface into a working product flow.
 
 The AI Spend Audit Platform and results dashboard are now connected dynamically which makes the platform feel much closer to a real SaaS application instead of a static demo. The AI Spend Audit Platform is really starting to come together.
+
+
+
+## Date 3: 9 May 2026
+Today was about making our AI Spend Audit platform better. We want it to feel professional, not like a calculator with a fancy look.
+
+### What I Worked On:
+* I made the Audit page look cleaner like a business software page
+* I fixed some navigation issues and broken links
+* I added a feature to handle AI tools with customizable plan
+* I worked on saving audit data
+* I improved the process of adding and removing tools without breaking anything
+* I made the Results page work better with navigation
+* I started making the audit engine logic realistic
+
+### Major Fixes : I
+* fixed a problem that caused the screen to go white
+* solved some errors when exporting and importing data
+* corrected some routing issues
+* fixed a problem with handling tools
+* improved how data flows between the Audit and Results pages
+
+### Optimization Engine Improvements
+I focused on making calculations more believable:
+* made utilization calculations better
+* improved waste estimation to make it more realistic
+* added overlap detection
+* improved recommendation logic
+* made numeric handling safer
+* planned to make values look nicer like changing `15000` to `15,000`
+
+### Biggest Learning Today
+A looking dashboard is not enough if the logic, behind it produces unrealistic numbers. Good business analytics depend on calculations handling edge cases and consistent data flow.
+
+### Current Status
+* Audit page UI is done
+* Navigation is fixed
+* Dynamic tool management is working
+* Optimization engine is being upgraded
+* Results logic is being refined
+
+### Tomorrow’s target:
+* Finalize a scoring system
+* Improve recommendation prioritization
+* Add advanced insights and business-grade analytics
+* Begin comprehensive engine testing ⚙️
