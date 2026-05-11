@@ -287,3 +287,57 @@ I fixed multiple issues across the platform, including:
 ---
 
 
+## Day 5 :  11 May 2026
+## What I Worked On
+Today I focused a lot on making the audit platform more like a real product that people can use. I did not want it to be a prototype that is held together with temporary fixes.
+
+### Major Updates
+* I changed the way the audit page looks to make it cleaner and more professional
+* I made the homepage look nicer and easier to understand
+* I fixed problems with the navigation menu
+* I made the audit logic better so it can do realistic financial analysis
+* I added a way to show money values with commas, like 15,000 of 15000
+* I improved the way it detects overlap and waste
+* I added a way to generate reports in CSV and PDF formats
+* I made it possible to send reports by email using the backend API
+* I set up the Nodemailer backend to send reports
+* I added checks to make sure reports are sent correctly and to handle errors
+* I created documents to help people understand the project:
+* README.md
+* ARCHITECTURE.md
+* REFLECTION.md
+* PRICING_DATA.md
+* PROMPTS.md
+
+---
+
+## Bugs & Problems Solved
+
+### React Issues
+* I fixed errors that happened when the audit object was not defined
+* I fixed problems with the SendReportButton component
+* I fixed links in the navigation menu
+
+### Backend Issues
+* I solved problems with the API that said "Not Found"
+* I fixed issues with the email endpoint
+* I fixed problems with handling requests
+* I fixed problems with generating blobs. Downloads
+
+### Authentication Issues
+* I had trouble with Gmail SMTP authentication
+* I learned that Google does not allow password login
+* I looked into setting up App Password and 2FA
+---
+
+## Key Improvements
+The audit engine is now more realistic. The audit platform now does savings estimation, improved risk analysis, clearer recommendations, cleaner formatting and more believable enterprise scenarios.
+The reporting system is also much better. The audit platform now has executive summary formatting, recommendation sections, downloadable reports and professional email templates.
+
+---
+
+## Biggest Learning Today
+A feature that works is not the same as a feature that's easy to maintain.
+Most of today was spent making the code improving reliability reducing fragile code and handling edge cases.
+The project is slowly changing from something that just works to something that actually behaves like a product.
+Small bugs can cause problems. One missing object reference caused half the report flow to break, like a JavaScript problem that caused big trouble.
