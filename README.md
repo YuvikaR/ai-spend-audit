@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
@@ -115,3 +116,6 @@ cd ai-spend-audit
 
 ```
 >>>>>>> 224bf9d7d9d7ec4dbde16c54882ca55a597f2168
+=======
+
+>>>>>>> c942687b53015c256b1cbc5e4cba31264917e816
