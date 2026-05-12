@@ -341,3 +341,131 @@ A feature that works is not the same as a feature that's easy to maintain.
 Most of today was spent making the code improving reliability reducing fragile code and handling edge cases.
 The project is slowly changing from something that just works to something that actually behaves like a product.
 Small bugs can cause problems. One missing object reference caused half the report flow to break, like a JavaScript problem that caused big trouble.
+
+
+## Day 6 :  12 May 2026
+# DEVLOG_DAY_4.md
+
+## Day 4 – Making the AI Spend Audit Platform Better
+
+Today I worked on making the AI Spend Audit platform really ready for people to use. I wanted to make sure it is not just working, but easy to maintain and understand. The project is moving from being a prototype to something more organized.
+
+### What I Did
+
+#### 1. Setting Up Automated Tests
+
+I set up tests for the optimization engine using Vitest. I made test files to cover things like:
+
+* How we calculate waste
+
+* How we generate risk scores
+
+* How we calculate utilization
+
+* How we project savings
+
+* How we generate recommendations
+
+This helped me make sure the core audit logic is correct and catch any mistakes before we deploy the AI Spend Audit platform.
+
+---
+
+#### 2. Fixing Test Environment Issues
+
+I spent a lot of time fixing issues with the test environment like:
+
+* When it said "describe is not defined"
+
+* When there were problems with ES module imports
+
+* When Babel and Vitest were not configured correctly
+
+* When file paths were incorrect
+
+I fixed these issues by setting up the test environment and updating the imports to match the project structure of the AI Spend Audit platform.
+
+---
+
+#### 3. Creating Documentation
+
+I made documentation files for the AI Spend Audit platform like:
+
+* `README.md`
+
+* `ARCHITECTURE.md`
+
+* `REFLECTION.md`
+
+* `PRICING_DATA.md`
+
+* `PROMPTS.md`
+
+* `TESTS.md`
+
+My goal was to document not just the AI Spend Audit platform itself but also why we made certain decisions how it is structured and the trade-offs we made during development.
+
+---
+
+#### 4. Setting Up GitHub and CI/CD
+
+I set up the GitHub repository structure. Pushed the complete AI Spend Audit platform project to the remote repository.
+
+I had some issues with Git like:
+
+* When the branches did not match (`main` vs `master`)
+
+* When pushes were rejected
+
+* When there were histories
+
+I fixed these issues by using force push and branch correction commands. I also prepared the file for automated tests and lint execution on every push.
+
+---
+
+#### 5. Improving Email and Report System
+
+I kept working on improving the report delivery system of the AI Spend Audit platform:
+
+* I got the CSV export working
+
+* I improved the PDF fallback handling
+
+* I debugged the email backend
+
+* I cleaned up the integration between the frontend and backend
+
+I had some issues with Gmail authentication and API routing while testing the report delivery functionality of the AI Spend Audit platform.
+
+---
+
+### What I Learned
+
+* Automated tests for the AI Spend Audit platform help me find logic flaws faster than testing it manually.
+
+* Git problems are easier to fix once I understand the concepts of branches and histories.
+
+* Making documentation for the AI Spend Audit platform takes a lot of effort. It makes it much easier to maintain.
+
+* Backend email systems for the AI Spend Audit platform are more complex than they seem because of authentication and security restrictions.
+
+---
+
+### Status of the AI Spend Audit Platform
+
+✅ The audit engine is working
+
+✅ The waste and risk analysis is working
+
+✅ The recommendation system is working
+
+✅ The CSV and PDF reports are working
+
+✅ The automated tests are working
+
+✅ The documentation is done
+
+✅ The GitHub setup is done
+
+⚠️ The email delivery is still being improved
+
+The AI Spend Audit platform now feels more like a real product, with structure, testing and documentation rather than just loose code.
