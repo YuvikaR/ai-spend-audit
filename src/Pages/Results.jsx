@@ -172,7 +172,7 @@ function Results() {
             {/* Action Buttons */}
              <div className="flex gap-4 mt-10 flex-wrap">
               <button className="bg-gradient-to-r from-indigo-600 to-blue-600 text-white px-8 py-4 rounded-xl font-semibold hover:shadow-lg hover:-translate-y-0.5 transition">
-                Book Consultation
+                Book Credex Consultation
               </button>
               
               {/* ✅ FIX: Use auditResults instead of audit */}
@@ -180,10 +180,6 @@ function Results() {
                 auditData={auditResults}
                 organizationName="Your Company"
               />
-
-              <button className="border border-slate-300 px-8 py-4 rounded-xl font-semibold hover:bg-slate-50 transition">
-                Download PDF
-              </button>
             </div>
           </div>
 
